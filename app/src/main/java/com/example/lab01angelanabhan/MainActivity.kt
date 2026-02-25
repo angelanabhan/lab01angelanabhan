@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
         val newsList = listOf(
-            News("Tech News", "New AI breakthrough announced", R.mipmap.ic_launcher),
-            News("Sports News", "Team wins championship", R.mipmap.ic_launcher),
-            News("Health News", "New vaccine discovered", R.mipmap.ic_launcher),
-            News("World News", "Global summit held today", R.mipmap.ic_launcher),
-            News("Finance News", "Stock market rises", R.mipmap.ic_launcher)
+            News("Tech News", "New AI breakthrough announced", R.drawable.baseline_computer_24),
+            News("Sports News", "Team wins championship", R.drawable.sports_icon),
+            News("Health News", "New vaccine discovered", R.drawable.favorite_icon),
+            News("World News", "Global summit held today", R.drawable.public_icon),
+            News("Finance News", "Stock market rises", R.drawable.attach_money_icon)
         )
 
         recyclerView.layoutManager = LinearLayoutManager(this)
